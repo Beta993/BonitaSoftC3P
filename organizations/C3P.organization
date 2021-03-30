@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="C3P">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="inspector">
+      <firstName>Mauricio</firstName>
+      <lastName>Betancourt</lastName>
+      <title></title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Empleado">
+      <displayName>Empleado</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Empleados">
+      <displayName>Empleados</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>inspector</userName>
+      <roleName>Empleado</roleName>
+      <groupName>Empleados</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
